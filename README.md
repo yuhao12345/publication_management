@@ -1,3 +1,6 @@
+## E/R diagram
+<img width="1000" src="./docs/erd.png"/>
+
 function (0):  title uses wildcard search.  We can search any combination of Title, ID, Subject.
 
 Eg: 
