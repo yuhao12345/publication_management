@@ -1,5 +1,6 @@
 # Publication management system
-This is a Database Driven Web App. The project is to create a web interface to the psql database using Python's bottle framework. 
+This is a Database Driven Web App. The project is to create a web interface to the psql database using Python's bottle framework, 
+which includes the functionality for searching for a record, listing results, displaying a record, updating a record, inserting a record, and deleting a record. 
 
 ## Required package
 
