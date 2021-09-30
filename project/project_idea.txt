@@ -1,0 +1,30 @@
+I plan to construct a database containing the information of publications.
+
+It will include the following entity sets:
+journal=(journal name, journal abbr, impact factor, open source or not, acception rate)
+Editor= (editor name, working year)
+publishing_company=(name, established year, country of origin, offical website)
+accepted_article=(title, Item type, Volume, Issue, pages, Accepted date)
+rejected_article=(title, received date, rejection reason)
+author=(first name, last name, email)
+subject=(subject name, sub-catogories)
+citation=(total citations, self-citation, citations in recent two years)
+affliation=(name, country, established year)
+keyword=(name, popularity in recent years)
+
+Relationship sets:
+Each jounal has a list of editors.
+Each journal belongs to a publishing company.
+Journal has a list of accepted articles.
+Journal has a list of rejected articles.
+Article has a list of authors.
+Article has a list of keywords.
+Each keyword may belong to more than one subject.
+Each article has citation statistics.
+Editor has one or more than one afflations.
+Author has one or more than one afflations.
+Journal can have more than one subject.
+Each article only belongs to one subject.
+
+
+

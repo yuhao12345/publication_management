@@ -1,0 +1,12 @@
+I plan to construct a database containing the information of publications. There will be 7 entities:
+article,author, author's affliation, journal,journal's parent company, editor, keyword of article.
+
+Below are their relations. 
+Each journal has at least one editor.
+Each journal belongs to one publishing company.
+Journal can publish more than one article.
+Each article can only corresponds to at most one journal.
+Article has at least one author. Author can have any number of articles.
+Article may have one or more keywords.
+Author has at least one afflations.
+Editor may evaluate any number of articles and leave notes.
