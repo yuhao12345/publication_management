@@ -15,10 +15,16 @@ python3 final.py
 
 Then visit: http://localhost:53001/
 
+
+
 ## E/R diagram
 <img width="1000" src="./docs/erd.png"/>
 
 ## Functionality
+
+The main interface
+<img width="1000" src="./docs/Capture.PNG"/>
+
 function (0):  title uses wildcard search.  We can search any combination of Title, ID, Subject.
 
 Eg: 
